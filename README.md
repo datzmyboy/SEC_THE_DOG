@@ -1,4 +1,4 @@
-# SEC_THE_DOG
+# SEC THE DOG
 
 ## GOAL 
 Get as many burgers as you can.
