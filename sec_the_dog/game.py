@@ -178,6 +178,9 @@ class Burger:
 
     def move_burger(self):
         self.buger_rect.y += self.burger_velocity
+        
+        # The higher the burger is, the higher the score.
+        # cast it to int() cause sometimes the value of burger_velocity is a float  
         self.burger_points = int(self.burger_velocity * (WINDOW_HEIGHT - self.buger_rect.y + 100))
 
     def check_for_collision(self):
